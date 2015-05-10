@@ -2,13 +2,13 @@ Maven
 =====
 ```xml
     <dependency>
-        <groupId>com.github.oxo42</groupId>
+        <groupId>com.volkhart</groupId>
         <artifactId>stateless4j</artifactId>
-        <version>2.5.0</version>
+        <version>2.5.0-SNAPSHOT</version>
     </dependency>
 ```
 
-[![Build Status](https://travis-ci.org/oxo42/stateless4j.svg?branch=master)](https://travis-ci.org/oxo42/stateless4j)
+[![Build Status](https://travis-ci.org/mariusvolkhart/stateless4j.svg?branch=master)](https://travis-ci.org/mariusvolkhart/stateless4j)
 
 Introduction
 ============

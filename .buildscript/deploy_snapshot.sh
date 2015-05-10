@@ -5,9 +5,9 @@
 # Adapted from https://coderwall.com/p/9b_lfq and
 # http://benlimmer.com/2013/12/26/automatically-publish-javadoc-to-gh-pages-with-travis-ci/
 
-SLUG="oxo42/stateless4j"
+SLUG="mariusvolkhart/stateless4j"
 JDK="openjdk7"
-BRANCH="master"
+BRANCH="develop"
 
 set -e
 

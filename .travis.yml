@@ -1,16 +1,17 @@
 language: java
+
 jdk:
-  - openjdk7
+- openjdk7
 
 after_success:
-  - .buildscript/deploy_snapshot.sh
+- .buildscript/deploy_snapshot.sh
 
 env:
   global:
-  # TODO see http://docs.travis-ci.com/user/environment-variables/#Secure-Variables
-    - secure: "CI_DEPLOY_USERNAME=<your_username>"
-    - secure: "CI_DEPLOY_PASSWORD=<your_password>"
+  - secure: CI_DEPLOY_PASSWORD=<your_password>
+  - secure: oNyRgYRbZPmcGeX+NdtCU1Kh92NsFb2Iv04P8qpKNq9spZjkgbtWBnU3n7ZIUkGHhM1v8Ldufnw4ABAfBPkGudR2jSrlND0f98RHmawgn+WphvpCMZYZApTOxgKWfu2yWY7nHZNOGC7CkJ8vOc1h4FPSCVSlOMBxgqK/l5MP/HKjGQFm+xsW2PlOrVkuC/IgZD67TUtLLVkkb6nrlY7+WEeCusUnLmF9d0LVEJDdbnCjSRNMJs5eUUJOy9M8FzNu6lN7aF+3Hv99dSSlDKEFo3xR3FamOBTegSo+1oJBseWVpg8yC8CauwjdqCgudebEx1NK2TS5wvjkWY9XLp5Tf25a7g8lOU0oBRatXKpXCrBgWuDVmA9WQPZKJEH7Nj/lDuwwFtfPmSBljpjIUJb8asWlsWd89NHVTFrnf3mDA238hUG6kfmGPvOPmr50JGgO6+3q2t68OiEe1Z0KO9JmLizGZfqkdjMJmS16pqwepDfaVgVhvgUtv+WqLe+YIWf4nmMQa6ql23bosM4AawYDrKwU0aN4RLEoamcQkIHHTL/mh3XwsbkhWn5P/CByviSTYw48XAAvz2DKQSS0jkbGC24igY6Louz9nhS+mWO+uGgiQhdbUaTthIAEymUL7ATV9x03zP3vaSkeaCeczCs8GV9dmD63lWJqDTX7djDQZIM=
+  - secure: T8T/rFoO54tk5mFxBEral2wVb+cc6ZwXTV65ufiEK8+UPdkt9RuUT4fah0xVzDDldqm2w3+wX2h1aRaCAjhXlGuz96NHZabx1YhlkT3NPS5GzoMQapOC5jJgRcNSMRYU3pWAw/zg5OfgRHzuyk8zOmf6INcgmvhEbP9/D2GA75G7h+nvsovy7A85wIjHMB/kAxDPyFGNcRvGBuVroVh5pt3+50wTwIlUqk31VNubjyZhhC2URDPt/F23zUiWBM3v84IxGaigzLlKvRIGfF2lqqpe6Q7OBqWdapIlRKWm8fUUtaoQ9fDKERxprNDNc0OVegFUjfAiaITaKpy/a2O3BZDyUSzjdVIY+MooEDT2Vun/5Pf640+TdyGDsGDRhf03KEu8N54hOmLOL4iw0BeNOsapr/Zd++efVSyfiY+/PYE4FnHodzIqfZ7EWyVWdB5eWF20t5H10edDU1848fEmMtjQHbZQwn6VKV58v/UCEOj4E+NlquJkyCA2oehsNaE6uwe9c2RGy319uNyv4v6JbZy+Ws7PSfUx7j2vQb1daHmp6sIYHf/9xdbl8Wb0scG8Wp/mkGSLIQY0g7zmKpbjUdXidqQ8NdxDsVKe/jRdDey/ONx/hqyle+IXTaX8ucxDlQsL9VZWv2T7OdvHHeFV3CkXWxbGOMhW07QAM5hus1k=
 
 cache:
   directories:
-    - $HOME/.m2
+  - $HOME/.m2
