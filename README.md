@@ -4,7 +4,7 @@ Maven
     <dependency>
         <groupId>com.volkhart</groupId>
         <artifactId>stateless4j</artifactId>
-        <version>2.5.0-SNAPSHOT</version>
+        <version>2.5.2-SNAPSHOT</version>
     </dependency>
 ```
 
