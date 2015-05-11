@@ -8,7 +8,7 @@ Maven
     </dependency>
 ```
 
-[![Build Status](https://travis-ci.org/mariusvolkhart/stateless4j.svg?branch=master)](https://travis-ci.org/mariusvolkhart/stateless4j)
+[![Build Status](https://travis-ci.org/MariusVolkhart/stateless4j.svg?branch=develop)](https://travis-ci.org/MariusVolkhart/stateless4j)
 
 Introduction
 ============
